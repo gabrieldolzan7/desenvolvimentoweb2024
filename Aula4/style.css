@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+<<<<<<< HEAD
     background-color: #f4f4f4;
     margin: 0;
     padding: 20px;
@@ -39,10 +40,35 @@ h1 {
 
 .form-group {
     margin-bottom: 15px;
+=======
+    background-color: #ffffff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 1rem;
+    background-color: #e9fcdf;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+.grupo-formulario {
+    margin-bottom: 1rem;
+>>>>>>> 22143e1fffc1badb576ec19d531c6bf9147bdd16
 }
 
 label {
     display: block;
+<<<<<<< HEAD
     font-weight: bold;
     margin-bottom: 5px;
     color: #555;
@@ -104,4 +130,43 @@ button {
 
 .reset-button:hover {
     background-color: #c82333;
+=======
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+select {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #c4fafd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    padding: 0.7rem 1.5rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-right: 0.5rem;
+}
+
+button[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+}
+
+button[type="reset"] {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+.botoes-formulario {
+    text-align: center;
+    margin-top: 1rem;
+>>>>>>> 22143e1fffc1badb576ec19d531c6bf9147bdd16
 }
